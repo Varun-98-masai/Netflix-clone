@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+
+h1{
+    color: aliceblue;
+}
+.logo img{
+    width: 167px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+
+.Singin_container{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.05)),url('https://assets.nflxext.com/ffe/siteui/vlv3/a43711df-c428-4f88-8bb3-b2ac5f20608f/32935458-d049-44c2-b94b-32f16d60ded1/IN-en-20230227-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    height: 150vh;
+    margin-top: 0;
+    padding-top: 50px;
+}
+.form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: black;
+    padding: 10px;
+    opacity: 0.7;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    margin-top: 100px;
+}
+.input{
+    margin-bottom: 50px;
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+}
+.form button{
+    color: #fff;
+    float: right;
+    background-color:  #e50914;
+    line-height: normal;
+    margin-top: 18px;
+    margin-right: 3%;
+    padding: 14px 17px;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 20px;
+    text-decoration: none;
+    width: 75%;
+    border-radius: 10px;
+    
+    height: 60px;
+}
+.checkbox_div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}

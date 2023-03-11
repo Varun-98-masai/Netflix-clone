@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+</head>
+<link rel="stylesheet" href="index.css"/>
+<body>
+    <header>
+        <nav>
+            <a class="logo"href="#">
+                <img src="Logonetflix.png" alt="">
+            </a>
+            <a class="signIn" href="./signin.html">Sign In</a>
+        </nav>
+        <div class="pitch">
+            <h1 class="pitch__title">See What's Next</h1>
+            <p class="pitch__subtitle">WATCH ANYWHERE. CANCLE ANYTIME.</p>
+             <button class="btn"> JOIN FREE FOR A MONTH</button>
+        </div> 
+    </header>  
+    <div id="features">
+        <nav>
+            <div class="center columns size-80">
+                <a href="#" class="column is-selected" data-id="cancle-anytime">
+                    <img src="cancle.jpg" alt="cancle anytime">
+                    <h2>
+                        No commitments
+                        <br/>
+                        Cancle online at anytime
+                    </h2>
+                </a>
+                <a href="#" class="column" data-id="watch-anywhere">
+                    <img src="watchanywhere.png" alt="watch anywhere">
+                    <h2>
+                        watch anywhere
+                    </h2>
+                </a>
+                <a href="#" class="column" data-id="pick-your-side">
+                    <img src="price-tag.png" alt="Pick your price">
+                    <h2>
+                        Pick your price   
+                    </h2>
+                </a>
+            </div>
+        </nav>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="index.js"></script>
+</html>
