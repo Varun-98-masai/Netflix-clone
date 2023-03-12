@@ -39,6 +39,7 @@ header nav {
     justify-content: center;
     align-items: center;
     margin: auto;
+    text-align: center;
     width: 500px;
 }
 .movie img{

@@ -67,6 +67,9 @@ fetch('https://online-movie-database.p.rapidapi.com/auto-complete?q=fast%20', op
       container.innerHTML = null;
 
       data.map((item) =>{
+        container.style.display = "grid";
+        container.style.gridTemplateColumns = "repeat(3,1fr)";
+        container.style.gap = "30px";
          const name = document.createElement("h1")
          name.innerText = item.l;
          const poster = document.createElement("img")

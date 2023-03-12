@@ -70,7 +70,8 @@ nav .signIn{
     text-decoration: none;
 }
 .slideshow-container {
-    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 20px;
     position: relative;
     margin: auto;
   }
@@ -154,19 +155,20 @@ nav .signIn{
     to {opacity: 1}
   }
   .movies{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: block;
     justify-content: center;
     align-items: center;
-  }
-  .movies div{ 
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
     text-align: center;
+  }
+  #loader{
+    width: 100px;
+    margin: auto;
+  }
+  .movies>div{ 
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     text-align: center;
+     /* height: 800px; */
   }
   .movies div h1{
     flex: 1;
@@ -179,7 +181,7 @@ nav .signIn{
     border-radius: 12px;
     text-align: center;
   }
-  .movies div img{
+  .movies>div > img{
     max-width: 300px;
     border-radius: 12px;
   }
